@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@mipmap/ic_login_background"
+        android:scaleType="centerCrop"
+        />
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="97dp"
+        android:src="@mipmap/ic_logo"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="200dp"
+        android:paddingLeft="14dp"
+        android:paddingRight="14dp"
+        >
+
+        <EditText
+            android:id="@+id/login_acount"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:drawableLeft="@drawable/ic_login_phone"
+            android:background="@null"
+            android:lines="1"
+            android:inputType="phone"
+            android:textColor="@color/white"
+            android:drawablePadding="4dp"
+            android:hint="请输入您的手机号"
+            android:textColorHint="@color/white_C2C2C2"
+            android:textSize="15sp"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/white"/>
+
+        <EditText
+            android:id="@+id/login_code"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:drawableLeft="@drawable/ic_login_code"
+            android:background="@null"
+            android:inputType="phone"
+            android:maxLength="6"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/white"
+            android:drawablePadding="4dp"
+            android:hint="请输入验证码"
+            android:textSize="15sp"
+            android:textColorHint="@color/white_C2C2C2"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/white"/>
+
+        <Button
+            android:id="@+id/login_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="26dp"
+            android:text="登录"
+            android:background="@drawable/shape_bg_blue_0283df_r4dp"
+            android:textColor="@color/white"
+            />
+
+    </LinearLayout>
+
+    <com.sibei.edu.customview.TimerView
+        android:id="@+id/login_code_get"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="268dp"
+        android:layout_marginRight="14dp"
+        />
+
+    <ProgressBar
+        android:id="@+id/login_progressbar"
+        android:layout_width="@dimen/progressbar_middle_size"
+        android:layout_height="@dimen/progressbar_middle_size"
+        android:layout_gravity="center"
+        android:layout_marginBottom="32dp"
+        android:visibility="invisible"
+        />
+
+</FrameLayout>

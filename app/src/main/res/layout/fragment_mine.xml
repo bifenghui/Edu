@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey_f6f6f6"
+    android:orientation="vertical"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:background="@color/blue_0d93ea">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/mine_avatar"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@mipmap/ic_avatar"
+            android:layout_centerInParent="true" />
+
+        <TextView
+            android:id="@+id/mine_nickname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Blossom"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:layout_below="@id/mine_avatar"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="12dp" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/mine_exit"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:paddingLeft="14dp"
+        android:background="@drawable/shape_bg_white_border_greyd6d6d6_1px"
+        android:layout_marginTop="10dp"
+        android:text="退出"
+        android:textColor="@color/black_666666"
+        android:drawableLeft="@drawable/ic_exit"
+        android:gravity="center_vertical"
+        android:textSize="16sp"
+        android:drawablePadding="6dp"
+        />
+
+</LinearLayout>

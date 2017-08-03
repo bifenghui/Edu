@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape_bg_white_border_greyd6d6d6_1px"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/item_icon"
+        android:layout_width="120dp"
+        android:layout_height="120dp" />
+
+    <TextView
+        android:id="@+id/item_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black_353535"
+        android:text="我们的名族小学我们的名我们的名族小学我们的名族小学我们的名族小学族小学我们的名族小学"
+        android:textSize="17sp"
+        android:layout_toRightOf="@id/item_icon"
+        android:layout_marginLeft="14dp"
+        android:lines="2"
+        android:ellipsize="end" />
+
+    <TextView
+        android:id="@+id/item_read_nums"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1120人观看"
+        android:textSize="14sp"
+        android:textColor="@color/grey_b2b2b2"
+        android:drawableLeft="@drawable/ic_eye_grey_b2b2b2_24dp"
+        android:gravity="center"
+        android:layout_alignLeft="@id/item_title"
+        android:layout_alignBottom="@id/item_icon"
+        android:drawablePadding="4dp" />
+
+    <TextView
+        android:id="@+id/item_content_extra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black_666666"
+        android:text="授课628小时"
+        android:layout_marginBottom="4dp"
+        android:layout_alignLeft="@id/item_read_nums"
+        android:layout_above="@id/item_read_nums"
+        android:textSize="15sp"
+        android:lines="1"
+        android:ellipsize="end" />
+
+    <TextView
+        android:id="@+id/item_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black_666666"
+        android:text="主讲老师"
+        android:textSize="15sp"
+        android:layout_alignLeft="@id/item_title"
+        android:layout_above="@id/item_content_extra"
+        android:lines="1"
+        android:ellipsize="end" />
+
+</RelativeLayout>

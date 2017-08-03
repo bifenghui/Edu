@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#FFFFFF</color>
+    <color name="white_E0E0E0">#E0E0E0</color>
+    <color name="white_C2C2C2">#C2C2C2</color>
+    <color name="blue_0283DF">#0284DF</color>
+    <color name="blue_0d93ea">#0D93EA</color>
+    <color name="blue_31a2f2">#31A2F2</color>
+    <color name="grey_b2b2b2">#B2B2B2</color>
+    <color name="grey_cccccc">#CCCCCC</color>
+    <color name="grey_d6d6d6">#D6D6D6</color>
+    <color name="grey_f6f6f6">#F6F6F6</color>
+    <!--分割线背景-->
+    <color name="grey_E6E6E6">#E6E6E6</color>
+    <color name="black">#000000</color>
+    <color name="black_353535">#353535</color>
+    <color name="black_666666">#666666</color>
+    <color name="black_999999">#999999</color>
+</resources>
