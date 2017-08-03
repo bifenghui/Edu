@@ -66,7 +66,7 @@ public class MainActivity extends ToolbarActivity implements MainView{
 
     @Override
     public void setBottomBarHomeSelected() {
-        setTitle("斯呗教育");
+        setTitle("EDU");
         bottomBarHomeIcon.setImageResource(R.drawable.ic_home_pressed);
         bottomBarHomeText.setTextColor(getResources().getColor(R.color.blue_0283DF));
         bottomBarMineIcon.setImageResource(R.drawable.ic_mine);

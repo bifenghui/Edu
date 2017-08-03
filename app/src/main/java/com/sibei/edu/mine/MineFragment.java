@@ -64,7 +64,7 @@ public class MineFragment extends Fragment {
     @OnClick(R.id.mine_exit)
     public void onViewClicked() {
         new MaterialDialog.Builder(getActivity())
-                .content("确定退出斯呗教育嘛?")
+                .content("确定退出EDU嘛?")
                 .contentColor(ContextCompat.getColor(getActivity(),R.color.black_353535))
                 .positiveColor(ContextCompat.getColor(getActivity(),R.color.blue_0283DF))
                 .positiveText("确定")
