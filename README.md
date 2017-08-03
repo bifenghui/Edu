@@ -1,2 +1,2 @@
 # Edu
-![demo](https://github.com/Longalei/Edu/edit/master/art/home.png)
+![home](https://github.com/Longalei/Edu/edit/master/art/home.png)
